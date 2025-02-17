@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image';
-import { texts,appStore } from './text'; 
+import { texts,appStore,playStore } from './text'; 
 import React, { useState, useEffect } from "react";
 
 
@@ -26,10 +26,9 @@ export default function Home() {
             }} className="text-base lg:text-xl">IOS</a></li>
             <li>
               <a 
-                href="#reviews" 
+                href={playStore} 
                 onClick={(e) => { 
-                  e.preventDefault();  // 기본 링크 동작을 막고
-                  handleAndroidClick(); // 준비중 팝업 띄우기
+                  
                 }}
                 className="text-base lg:text-xl"
               >

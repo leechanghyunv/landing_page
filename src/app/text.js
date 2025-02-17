@@ -23,3 +23,4 @@ export const texts = {
 };
 
 export const appStore = "https://apps.apple.com/kr/app/%EC%9B%8C%ED%81%AC%EC%BA%98%EB%A6%B0%EB%8D%94-%EA%B3%B5%EC%88%98%EB%8B%AC%EB%A0%A5-%EA%B3%B5%EC%88%98%EA%B3%84%EC%82%B0%EA%B8%B0-%EC%9D%BC%EC%9A%A9%EC%A7%81-%EB%85%B8%EA%B0%80%EB%8B%A4-%ED%95%84%EC%88%98/id6596813027"
+export const playStore = "https://play.google.com/store/apps/details?id=com.app.calendar_project_240727"
