@@ -159,11 +159,56 @@ html, body {
             line-height: 1.6;
         }
 
+        /* 모바일 기능 섹션 최적화 */
+        @media (max-width: 768px) {
+            .features {
+                padding: 40px 15px; /* 상하 패딩 크게 줄임 */
+            }
+
+            .section-title {
+                font-size: 1.5rem; /* 제목 크기 축소 */
+                margin-bottom: 25px; /* 제목 아래 여백 줄임 */
+            }
+
+            .feature-grid {
+                gap: 12px; /* 카드 간격 줄임 */
+            }
+
+            .feature-card {
+                padding: 20px; /* 카드 내부 패딩 줄임 */
+                border-radius: 16px;
+            }
+
+            .feature-icon {
+                width: 40px; /* 아이콘 크기 축소 */
+                height: 40px;
+                font-size: 20px;
+                margin-bottom: 12px; /* 아이콘 아래 여백 줄임 */
+            }
+
+            .feature-card h3 {
+                font-size: 1.1rem; /* 제목 크기 축소 */
+                margin-bottom: 8px; /* 제목 아래 여백 줄임 */
+            }
+
+            .feature-card p {
+                font-size: 0.9rem; /* 텍스트 크기 약간 축소 */
+                line-height: 1.4; /* 줄 간격 줄임 */
+            }
+        }
+
         /* 스크린샷 섹션 */
         .screenshots {
             padding: 80px 20px;
             background: #f8f9fa;
             text-align: center;
+        }
+
+        /* 모바일 스크린샷 섹션 최적화 */
+        @media (max-width: 768px) {
+            .screenshots {
+                padding: 40px 15px; /* 상하 패딩 줄임 */
+            }
         }
 
         .screenshot-container {
@@ -185,18 +230,18 @@ html, body {
 
               
         .screenshot {
-             width: 280px;
-            height: 580px;
+            width: 280px;
+            height: 605px; /* 높이 605px로 조정 */
             background: #000;
             border-radius: 35px;
             padding: 9px;
-            margin-bottom: 40px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             position: relative;
+            flex-shrink: 0; /* 크기 고정 */
         }
 
         .screen-content {
-             width: 100%;
+            width: 100%;
             height: 100%;
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
             border-radius: 25px;
@@ -205,6 +250,14 @@ html, body {
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+
+        /* 이미지 스타일 추가 */
+        .screen-content img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 25px;
         }
 
          .screenshot-container::-webkit-scrollbar {
@@ -307,6 +360,32 @@ html, body {
             text-align: center;
         }
 
+        /* 모바일 다운로드 섹션 최적화 */
+        @media (max-width: 768px) {
+            .download {
+                padding: 40px 15px; /* 상하 패딩 줄임 */
+            }
+
+            .download h2 {
+                font-size: 1.5rem; /* 제목 크기 축소 */
+                margin-bottom: 15px;
+            }
+
+            .download p {
+                font-size: 0.95rem; /* 설명 텍스트 크기 축소 */
+                margin-bottom: 20px;
+            }
+
+            .store-buttons {
+                margin-top: 20px; /* 버튼 상단 여백 줄임 */
+            }
+
+            .store-button {
+                padding: 10px 24px; /* 버튼 패딩 줄임 */
+                font-size: 0.9rem;
+            }
+        }
+
         .download h2 {
             font-size: 2rem;
             margin-bottom: 20px;
@@ -359,11 +438,6 @@ html, body {
             .carousel-wrapper {
                 gap: 15px;
                 padding: 0 15px;
-            }
-            
-            .screenshot {
-                min-width: 270px;
-                height: 525px;
             }
         }
 

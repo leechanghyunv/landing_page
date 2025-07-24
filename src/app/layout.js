@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
         
         <HeroSection /> 
         
-         <ScreenshotCarousel />
+         {/* <ScreenshotCarousel /> */}
 
 
     <section className="features">

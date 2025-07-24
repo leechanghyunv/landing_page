@@ -1,59 +1,69 @@
 // components/ScreenshotCarousel.js
 'use client';
 
-// components/ScreenshotCarousel.js
-'use client';
-
 import { useState } from 'react';
 
 const ScreenshotCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [touchStartX, setTouchStartX] = useState(0);
+  const [touchEndX, setTouchEndX] = useState(0);
   const totalSlides = 3;
 
-const handleTouchStart = (e) => {
-  setTouchStartX(e.touches[0].clientX);
-};
+  // 다음 슬라이드로 이동
+  const handleNext = () => {
+    setCurrentSlide((prev) => (prev + 1) % totalSlides);
+  };
 
-const handleTouchMove = (e) => {
-  setTouchEndX(e.touches[0].clientX);
-};
+  // 이전 슬라이드로 이동
+  const handlePrev = () => {
+    setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
+  };
 
-const handleTouchEnd = () => {
-  const swipeDistance = touchStartX - touchEndX;
+  const handleTouchStart = (e) => {
+    setTouchStartX(e.touches[0].clientX);
+  };
 
-  // 최소 스와이프 거리 설정 (예: 50px 이상이어야 인식)
-  if (swipeDistance > 50) {
-    handleNext(); // 왼쪽으로 스와이프 → 다음 슬라이드
-  } else if (swipeDistance < -50) {
-    handlePrev(); // 오른쪽으로 스와이프 → 이전 슬라이드
-  }
+  const handleTouchMove = (e) => {
+    setTouchEndX(e.touches[0].clientX);
+  };
 
-  // 초기화
-  setTouchStartX(0);
-  setTouchEndX(0);
-};  
+  const handleTouchEnd = () => {
+    const swipeDistance = touchStartX - touchEndX;
+
+    // 최소 스와이프 거리 설정 (예: 50px 이상이어야 인식)
+    if (swipeDistance > 50) {
+      handleNext(); // 왼쪽으로 스와이프 → 다음 슬라이드
+    } else if (swipeDistance < -50) {
+      handlePrev(); // 오른쪽으로 스와이프 → 이전 슬라이드
+    }
+
+    // 초기화
+    setTouchStartX(0);
+    setTouchEndX(0);
+  };  
 
   // 중앙 정렬을 위한 계산
   const getTransformValue = () => {
-    // 320px (카드 너비) + 20px (gap)
-    const slideWidth = 340;
+    // 280px (카드 너비) + 20px (gap) = 300px
+    const slideWidth = 300;
     // 현재 슬라이드를 중앙에 위치
-    return `translateX(calc(50% - ${170 + currentSlide * slideWidth}px))`;
+    // calc(50% - 140px)는 첫 번째 슬라이드를 중앙에 놓기 위한 값
+    // currentSlide * slideWidth로 이동
+    return `translateX(calc(50% - ${140 + currentSlide * slideWidth}px))`;
   };
 
   return (
     <section className="screenshots">
-      {/* <h2 style={{marginBottom: "10px"}}  className="section-title">앱 화면 미리보기</h2> */}
-      <h2 style={{ marginBottom: "10px", color: "#000",fontWeight: "bold" }} className="section-title">
-      {["향상된 디자인", "유저 데이터 공유", "꼼꼼한 이력관리"][currentSlide]}
+      <h2 style={{ marginBottom: "10px", color: "#000", fontWeight: "bold" }} className="section-title">
+        {["향상된 디자인", "유저 데이터 공유", "꼼꼼한 이력관리"][currentSlide]}
       </h2>
       
       <div className="screenshot-container" style={{ overflow: 'hidden', position: 'relative' }}>
         <div 
           className="carousel-wrapper"
-           onTouchStart={handleTouchStart}
-           onTouchMove={handleTouchMove}
-           onTouchEnd={handleTouchEnd}
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
           style={{ 
             transform: getTransformValue(),
             display: 'flex',
@@ -63,25 +73,24 @@ const handleTouchEnd = () => {
         >
           <div className="screenshot">
             <div className="screen-content">
-               <img src="image/main.jpg" alt="앱 메인 화면" />
+              <img src="image/main.jpg" alt="향상된 디자인 - 메인 화면" />
             </div>
           </div>
           
           <div className="screenshot">
             <div className="screen-content">
-              <img src="image/statistics.jpg" alt="앱 메인 화면" />
+              <img src="image/statistics.jpg" alt="유저 데이터 공유 - 통계 화면" />
             </div>
           </div>
           
           <div className="screenshot">
             <div className="screen-content">
-              <img src="image/history.jpg" alt="앱 메인 화면" />
+              <img src="image/history.jpg" alt="꼼꼼한 이력관리 - 히스토리 화면" />
             </div>
           </div>
         </div>
       </div>
 
-  
       <div className="carousel-indicators">
         {[...Array(totalSlides)].map((_, index) => (
           <div
