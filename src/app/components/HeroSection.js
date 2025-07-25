@@ -4,22 +4,28 @@
 import dynamic from 'next/dynamic';
 import { DownloadHeader } from './DownLoadButton';
 
-
-
-
 export default function HeroSection() {
   return (
     <section className="hero" >
       
-     
 
       <p style={{ 
         marginTop: "28px",
         marginBottom: "48px",
         fontWeight: "bold",
         color: "#000",
-        fontSize: "26px" }}>
-        똑똑한 공수계산기 찾으세요?
+        marginBottom: "0px",
+        fontSize: "40px" }}>
+        똑똑한 공수계산기
+      </p>
+       <p style={{
+        fontWeight: "bold",
+        color: "#000",
+        fontSize: "40px", // 글자 크기 더 키움
+        marginTop: "0px", // 윗 줄과의 간격 조절
+        marginBottom: "48px", // 원래 의도한 아랫 부분 마진 유지
+      }}>
+        찾으세요?
       </p>
       
       <div className="app-mockup">
