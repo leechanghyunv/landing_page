@@ -5,15 +5,11 @@ import dynamic from 'next/dynamic';
 import { DownloadHeader } from './DownLoadButton';
 
 
-const FireworksBackground = dynamic(
-  () => import('./FireworksBackground'),
-  { ssr: false }
-);
+
 
 export default function HeroSection() {
   return (
     <section className="hero" >
-      {/* <FireworksBackground /> */}
       
      
 

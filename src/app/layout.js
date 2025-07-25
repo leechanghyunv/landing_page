@@ -2,13 +2,12 @@ import "./globals.css";
 
 import FeatureAnimation from "./components/FeatureAnimation";
 import { DownloadSection } from './components/DownLoadButton';
-import ScreenshotCarousel from './components/ScreenShotCarousel';
 import HeroSection from './components/HeroSection'; // 새로운 import
 
 
 export const metadata = {
-  title: ' 워크캘린더 - 공수달력, 일용직 노가다',  // 핵심 키워드 앞배치
-  description: '건설현장 공수 계산을 한 번에! 현장 관리자를 위한 필수 공수계산기 앱',
+  title: '공수계산기-워크캘린더 - 공수달력,공수앱 일용직 노가다',  // 핵심 키워드 앞배치
+  description: '건설현장 공수 계산을 한 번에! 현장 관리자를 위한 필수 공수계산기',
   keywords: [
     '공수', 
     '공수달력', 
@@ -19,6 +18,16 @@ export const metadata = {
     '건설현장', 
     '일당직', 
   ],
+   alternates: {
+    types: {
+      'application/rss+xml': [
+        {
+          title: '워크캘린더 RSS 피드',
+          url: '/rss.xml',
+        },
+      ],
+    },
+  },
   openGraph: {
     title: '공수계산기 - 공수달력',
     description: '건설현장 공수 개념부터 노무비 계산까지, 현장 관리자의 필수 앱',
@@ -40,10 +49,7 @@ export default function RootLayout({ children }) {
     <head>
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-    
     <meta name="naver-site-verification" content="2072f8e87baa3a250aebcafae511f324e6047c49" />
-
-    <title>App Landing Page</title>      
     <style> 
     </style>
     </head>
