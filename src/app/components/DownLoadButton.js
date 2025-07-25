@@ -26,7 +26,7 @@ export function DownloadSection() {
   return (
     <section className="download">
       <h2>지금 바로 시작하세요</h2>
-      <p>스마트한 소비 생활의 첫걸음, 무료로 다운로드하고 체험해보세요</p>
+      <p>어플리케이션은 유저의 의견에 따라 언제든지 변경,추가 될 수 있습니다. 불편하셨던점, 추가했으면 하는 기능이 있으시면 언제든지 의견을 주세요 감사합니다. </p>
       <div className="store-buttons">
         <a href={appStoreUrl} className="store-button">
           <span>🍎</span>
