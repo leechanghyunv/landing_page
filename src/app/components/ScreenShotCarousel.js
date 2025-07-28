@@ -54,8 +54,19 @@ const ScreenshotCarousel = () => {
 
   return (
     <section className="screenshots">
+
+      <p style={{ 
+        marginTop: "28px",
+        marginBottom: "48px",
+        fontWeight: "bold",
+        color: "#000",
+        marginBottom: "20px",
+        fontSize: "40px" }}>
+        워크캘린더 살펴보기
+      </p>
+
       <h2 style={{ marginBottom: "10px", color: "#000", fontWeight: "bold" }} className="section-title">
-        {["향상된 디자인", "유저 데이터 공유", "꼼꼼한 이력관리"][currentSlide]}
+        {["향상된 디자인", "꼼꼼한 이력관리","유저 데이터 공유"][currentSlide]}
       </h2>
       
       <div className="screenshot-container" style={{ overflow: 'hidden', position: 'relative' }}>
@@ -79,13 +90,13 @@ const ScreenshotCarousel = () => {
           
           <div className="screenshot">
             <div className="screen-content">
-              <img src="image/statistics.jpg" alt="유저 데이터 공유 - 통계 화면" />
+              <img src="image/history2.jpg" alt="유저 데이터 공유 - 통계 화면" />
             </div>
           </div>
           
           <div className="screenshot">
             <div className="screen-content">
-              <img src="image/history.jpg" alt="꼼꼼한 이력관리 - 히스토리 화면" />
+              <img src="image/statistics.jpg" alt="꼼꼼한 이력관리 - 히스토리 화면" />
             </div>
           </div>
         </div>

@@ -6,4 +6,14 @@ module.exports = {
   changefreq: 'weekly',
   priority: 1.0,
   sitemapSize: 5000,
+  generateIndexSitemap: false, // 작은 사이트는 false로
+  exclude: ['/api/*'], // API 경로 제외
+   robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: '*',
+        allow: '/',
+      },
+    ],
+  },
 };

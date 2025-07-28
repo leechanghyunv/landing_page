@@ -3,7 +3,9 @@ import "./globals.css";
 import FeatureAnimation from "./components/FeatureAnimation";
 import { DownloadSection } from './components/DownLoadButton';
 import HeroSection from './components/HeroSection'; // 새로운 import
-
+import ScreenshotCarousel from './components/ScreenShotCarousel'; // 스크린샷 캐러셀 컴포넌트 import
+import UserReviews from './components/user_rating'; // user_rating.js 파일 import
+import Comment from './components/Comment'; 
 
 export const metadata = {
   title: '공수계산기-워크캘린더 - 공수달력,공수앱 일용직 노가다',  // 핵심 키워드 앞배치
@@ -58,7 +60,8 @@ export default function RootLayout({ children }) {
         
         <HeroSection /> 
         
-         {/* <ScreenshotCarousel /> */}
+         <ScreenshotCarousel />
+
 
 
     <section className="features">
@@ -91,6 +94,10 @@ export default function RootLayout({ children }) {
     </section>
     
     
+    <UserReviews />
+    
+     <Comment />
+ 
     <DownloadSection />
 
     
