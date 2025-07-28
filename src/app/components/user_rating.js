@@ -23,7 +23,7 @@ export default function UserReviews() {
     {
       id: 4,
       text: "광고도 없고 공수 기록하기 좋아요",
-      rating: 4,
+      rating: 5,
       author: "최**"
     },
     {
@@ -42,7 +42,7 @@ export default function UserReviews() {
 
   return (
     <section className="user-reviews">
-      <h1 className="section-title">사용자 후기</h1>
+      <h2 className="section-title">사용자 후기</h2>
       
       <div className="reviews-grid">
         {reviews.map((review) => (
