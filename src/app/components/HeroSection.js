@@ -30,7 +30,7 @@ export default function HeroSection() {
       
       <div className="app-mockup">
         <div className="mockup-screen">
-          <img src="image/main.jpg" alt="앱 메인 화면"
+          <img src="image/main.jpg" alt="아이폰,안드로이드 공수계산기 어플 추천"
             style={{
               width: "100%",
               height: "auto",
@@ -41,7 +41,7 @@ export default function HeroSection() {
             }} />
         </div>
       </div>
-      <h1>워크캘린더</h1>
+      <h1>워크캘린더 공수계산기</h1>
       <p style={{margin: "3px", fontWeight: "bold", color: "#000" }}>
         주요공종 평균일당제공, 근로공제금 자동계산, 로그인 없는 백업 관리 이 모든 기능을 광고없이
       </p>

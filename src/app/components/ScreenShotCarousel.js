@@ -66,7 +66,7 @@ const ScreenshotCarousel = () => {
       </p>
 
       <h2 style={{ marginBottom: "10px", color: "#000", fontWeight: "bold" }} className="section-title">
-        {["향상된 디자인", "꼼꼼한 이력관리","유저 데이터 공유"][currentSlide]}
+        {["우월한 디자인", "꼼꼼한 이력관리","유저 데이터 공유"][currentSlide]}
       </h2>
       
       <div className="screenshot-container" style={{ overflow: 'hidden', position: 'relative' }}>
