@@ -1,6 +1,5 @@
 import "./globals.css";
 
-import FeatureAnimation from "./components/FeatureAnimation";
 import { DownloadSection } from './components/DownLoadButton';
 import HeroSection from './components/HeroSection'; // 새로운 import
 import ScreenshotCarousel from './components/ScreenShotCarousel'; // 스크린샷 캐러셀 컴포넌트 import
@@ -67,7 +66,7 @@ export default function RootLayout({ children }) {
     </style>
     </head>
       <body suppressHydrationWarning>
-        <FeatureAnimation />
+        {children}
         
         <HeroSection /> 
         
