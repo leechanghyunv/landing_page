@@ -8,8 +8,8 @@ import UserReviews from './components/user_rating'; // user_rating.js 파일 imp
 import Comment from './components/Comment'; 
 
 export const metadata = {
-  title: '공수계산기-워크캘린더 - 공수달력,공수앱 일용직 노가다',  // 핵심 키워드 앞배치
-  description: '건설현장 공수 계산을 한 번에! 현장 관리자를 위한 필수 공수계산기',
+  title: '공수계산기,공수달력,공수앱, 워크캘린더',  // 핵심 키워드 앞배치
+  description: '공수계산기 최초 하이테크,일반현장,조선소,플랜트 평균 임금 제공 및 퇴직공제금 자동계산, 로그인 없는 백업 관리 기능을 제공하는 앱입니다.',
   keywords: [
     '공수', 
     '공수달력', 
@@ -52,6 +52,17 @@ export default function RootLayout({ children }) {
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <meta name="naver-site-verification" content="2072f8e87baa3a250aebcafae511f324e6047c49" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17290887925"></script>
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-17290887925');
+        `,
+      }}
+    />
     <style> 
     </style>
     </head>
