@@ -62,6 +62,17 @@ export default function RootLayout({ children }) {
         `,
       }}
     />
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
+          gtag('event', 'conversion', {
+              'send_to': 'AW-17290887925/skwLCPnzzYwbEPWF-LRA',
+              'value': 1.0,
+              'currency': 'KRW'
+          });
+        `,
+      }}
+    />
     <style> 
     </style>
     </head>
