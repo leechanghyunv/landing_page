@@ -66,7 +66,7 @@ const ScreenshotCarousel = () => {
       </p>
 
       <h2 style={{ marginBottom: "10px", color: "#000", fontWeight: "bold" }} className="section-title">
-        {["우월한 디자인", "꼼꼼한 이력관리","유저 데이터 공유"][currentSlide]}
+        {["깔끔한 디자인", "꼼꼼한 이력관리","유저 데이터 공유"][currentSlide]}
       </h2>
       
       <div className="screenshot-container" style={{ overflow: 'hidden', position: 'relative' }}>
@@ -84,19 +84,19 @@ const ScreenshotCarousel = () => {
         >
           <div className="screenshot">
             <div className="screen-content">
-              <img src="image/main.jpg" alt="공수계산기의 향상된 디자인을 보여주는 모습" />
+              <img src="image/main.jpg" alt="광고없는 공수계산기 노가다 일용직 급여관리 앱" />
             </div>
           </div>
           
           <div className="screenshot">
             <div className="screen-content">
-              <img src="image/history2.jpg" alt="건설근로공제 퇴직금,목표금액을 보여주는 공수달력의 모습" />
+              <img src="image/history2.jpg" alt="건설근로공제 퇴직금,실업급여조건을 보여주는 공수달력의 모습" />
             </div>
           </div>
           
           <div className="screenshot">
             <div className="screen-content">
-              <img src="image/statistics.jpg" alt="하이테크,일반현장,인테리어,철거,조선소,플랜트 평균 일당을 보여주는 모습" />
+              <img src="image/statistics.jpg" alt="반도체현장,일반현장,인테리어,철거,조선소,플랜트 평균 일당을 보여주는 모습" />
             </div>
           </div>
         </div>
