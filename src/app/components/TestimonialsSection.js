@@ -1,11 +1,3 @@
-export default function TestimonialsSection() {
-  return (
-    <section>
-      <h2>사용자 후기</h2>
-    </section>
-  );
-}
-
 import { Card, CardContent } from "./ui/card.js";
 import { Star } from "lucide-react";
 
@@ -97,3 +89,5 @@ export function TestimonialsSection() {
     </section>
   );
 }
+
+export default TestimonialsSection;

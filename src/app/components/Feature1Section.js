@@ -1,11 +1,3 @@
-export default function Feature1Section() {
-  return (
-    <section>
-      <h2>주요 기능 1</h2>
-    </section>
-  );
-}
-
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function Feature1Section() {
@@ -51,3 +43,5 @@ export function Feature1Section() {
     </section>
   );
 }
+
+export default Feature1Section;

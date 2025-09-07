@@ -60,7 +60,7 @@ export function AppPreviewSection() {
   return (
     <section
       id="preview"
-      className="py-12 sm:py-16 md:py-20 px-4 bg-gradient-to-b from-background to-teal-50/30"
+      className="py-12 sm:py-16 md:py-20 px-4 bg-white"
     >
       <div className="container mx-auto">
         <div className="text-center mb-8 sm:mb-12">

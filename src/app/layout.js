@@ -1,13 +1,14 @@
 import "./globals.css";
 
-import HeroSection from './components/HeroSection';
-import AppPreviewSection from './components/AppPreviewSection';
-import Feature1Section from './components/Feature1Section';
+import { HeroSection } from './components/HeroSection';
+import { AppPreviewSection } from './components/AppPreviewSection';
+import { Feature1Section } from './components/Feature1Section';
 import { Feature2Section } from './components/Feature2Section';
-import Feature3Section from './components/Feature3Section';
-import TestimonialsSection from './components/TestimonialsSection';
-import FAQSection from './components/FAQSection';
+import { Feature3Section } from './components/Feature3Section';
+import { TestimonialsSection } from './components/TestimonialsSection';
+import { FAQSection } from './components/FAQSection';
 import { Footer } from './components/Footer';
+import { Header } from './components/Header';
 
 export const metadata = {
   title: '공수계산기 - 건설 일당 계산 무료 노가다 앱,| 워크캘린더',  // 핵심 키워드 앞배치
@@ -98,8 +99,8 @@ export default function RootLayout({ children }) {
     </style>
     </head>
       <body suppressHydrationWarning>
-        {children}
-        
+      
+         <Header />
        <main>
         <HeroSection />
         <AppPreviewSection />
@@ -110,7 +111,7 @@ export default function RootLayout({ children }) {
         <FAQSection />
       </main>
       <Footer />
-    
+    {children}
       </body>
     </html>
   );

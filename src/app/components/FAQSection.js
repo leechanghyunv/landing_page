@@ -1,10 +1,3 @@
-export default function FAQSection() {
-  return (
-    <section>
-      <h2>FAQ</h2>
-    </section>
-  );
-}
 
 import {
   Accordion,
@@ -92,3 +85,5 @@ export function FAQSection() {
     </section>
   );
 }
+
+export default FAQSection;

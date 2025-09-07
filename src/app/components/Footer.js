@@ -1,4 +1,4 @@
-import { Button } from "./ui/button.jsx";
+import { Button } from "./ui/button.js";
 import { Separator } from "./ui/separator.js";
 
 export function Footer() {
