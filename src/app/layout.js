@@ -1,13 +1,16 @@
 import "./globals.css";
 
-import { DownloadSection } from './components/DownLoadButton';
-import HeroSection from './components/HeroSection'; // 새로운 import
-import ScreenshotCarousel from './components/ScreenShotCarousel'; // 스크린샷 캐러셀 컴포넌트 import
-import UserReviews from './components/user_rating'; // user_rating.js 파일 import
-import Comment from './components/Comment'; 
+import HeroSection from './components/HeroSection';
+import AppPreviewSection from './components/AppPreviewSection';
+import Feature1Section from './components/Feature1Section';
+import { Feature2Section } from './components/Feature2Section';
+import Feature3Section from './components/Feature3Section';
+import TestimonialsSection from './components/TestimonialsSection';
+import FAQSection from './components/FAQSection';
+import { Footer } from './components/Footer';
 
 export const metadata = {
-  title: '공수계산기,공수달력,공수노트,워크캘린더',  // 핵심 키워드 앞배치
+  title: '공수계산기 - 건설 일당 계산 무료 노가다 앱,| 워크캘린더',  // 핵심 키워드 앞배치
   description: '공수계산기, 퇴직공제금,실업급여조건 산정, 노가다 현장 평균일당정보제공 기능을 하나로! 평택삼성, 용인하이닉스, 조선소, 플랜트 현장 근로자를 위한 맞춤형 일당·공수 관리 앱',
   keywords: [
     '공수표', 
@@ -97,48 +100,16 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning>
         {children}
         
-        <HeroSection /> 
-        
-         <ScreenshotCarousel />
-
-
-
-    <section className="features">
-        <h2 className="section-title">주요 기능</h2>
-        <div className="feature-grid">
-            <div className="feature-card">
-                <div className="feature-icon">📂</div>
-                <h3>건설근로공제 정보제공</h3>
-                <p>공수등록 즉시 건설근로공제금액, 수급 조건 기준 정산</p>
-            </div>
-            
-            <div className="feature-card">
-                <div className="feature-icon">📊</div>
-                <h3>유저 일당 통계</h3>
-                <p>전기,배관,덕트 등등 주요 공정의 평균임금을 공개합니다.</p>
-            </div>
-            
-            <div className="feature-card">
-                <div className="feature-icon">💾</div>
-                <h3>간단한 백업관리 </h3>
-                <p>복사 붙여넣기 방식으로 로그인 없이 백업 가능합니다.</p>
-            </div>
-
-            <div className="feature-card">
-                <div className="feature-icon">🏵️</div>
-                <h3>차별화된 디자인</h3>
-                <p>차별화된 디자인으로 사용자 경험을 향상시킵니다.</p>
-            </div>
-        </div>
-    </section>
-    
-    
-    <UserReviews />
-    
-     <Comment />
- 
-    <DownloadSection />
-
+       <main>
+        <HeroSection />
+        <AppPreviewSection />
+        <Feature1Section />
+        <Feature2Section />
+        <Feature3Section />
+        <TestimonialsSection />
+        <FAQSection />
+      </main>
+      <Footer />
     
       </body>
     </html>
