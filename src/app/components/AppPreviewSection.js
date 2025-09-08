@@ -123,7 +123,7 @@ export function AppPreviewSection() {
                 onClick={prevScreen}
               >
                 <ChevronLeft className="h-4 w-4 text-teal-600 mr-1" />
-                이전
+                
               </Button>
 
               <Button
@@ -132,7 +132,7 @@ export function AppPreviewSection() {
                 className="rounded-full bg-white shadow border-teal-200 hover:bg-teal-50 px-4"
                 onClick={nextScreen}
               >
-                다음
+                
                 <ChevronRight className="h-4 w-4 text-teal-600 ml-1" />
               </Button>
             </div>

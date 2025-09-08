@@ -17,19 +17,36 @@ export function Footer() {
           </p>
 
           <div className="flex flex-row gap-3 sm:gap-4 justify-center items-center mb-8 sm:mb-12">
-            <Button
-              size="lg"
-              className="bg-teal-500 hover:bg-teal-600 text-white px-6 sm:px-8 min-w-[140px]"
-            >
-              iOS 다운로드
-            </Button>
-            <Button
-              size="lg"
-              className="bg-teal-500 hover:bg-teal-600 text-white px-6 sm:px-8 min-w-[140px]"
-            >
-              Android 다운로드
-            </Button>
+          <Button
+          size="lg"
+          className="bg-teal-500 hover:bg-teal-600 text-white px-6 sm:px-8 min-w-[140px]"
+          asChild
+          >
+          <a
+          href="https://apps.apple.com/kr/app/워크캘린더-공수달력-공수계산기-일용직-노가다-필수/id6596813027"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          iOS 다운로드
+          </a>
+          </Button>
+          
+          <Button
+          size="lg"
+          className="bg-teal-500 hover:bg-teal-600 text-white px-6 sm:px-8 min-w-[140px]"
+          asChild
+          >
+          <a
+          href="https://play.google.com/store/apps/details?id=com.app.calendar_project_240727"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          Android 다운로드
+          </a>
+          </Button>
           </div>
+
+
         </div>
 
         <Separator className="mb-4 sm:mb-6" />

@@ -32,7 +32,7 @@ export function Feature2Section() {
                   />
                 </div>
               </div>
-              <div className="absolute -z-10 top-3 sm:top-4 -left-3 sm:-left-4 w-full h-full bg-teal-500/20 rounded-2xl sm:rounded-3xl" />
+              {/* <div className="absolute -z-10 top-3 sm:top-4 -left-3 sm:-left-4 w-full h-full bg-teal-500/20 rounded-2xl sm:rounded-3xl" /> */}
             </div>
           </div>
         </div>
