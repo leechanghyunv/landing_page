@@ -23,7 +23,7 @@ export function HeroSection() {
               <div className="w-full h-full bg-white rounded-xl sm:rounded-2xl overflow-hidden">
                 <ImageWithFallback
                   src="/image/main.png"
-                  alt="워크캘린더 앱 대표 이미지 - 스마트폰에서 캘린더 앱을 사용하는 모습"
+                  alt="워크캘린더 공수계산기 앱 대표 이미지 - 스마트폰에서 캘린더 앱을 사용하는 모습"
                   className="w-full h-full object-cover"
                 />
               </div>

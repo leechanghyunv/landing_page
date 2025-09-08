@@ -12,7 +12,7 @@ export function Feature3Section() {
                 <div className="w-full h-full bg-white rounded-xl sm:rounded-2xl overflow-hidden">
                   <ImageWithFallback
                     src="/image/Group 46.png" 
-                    alt="모바일 앱 UI 디자인의 세 번째 핵심 기능을 보여주는 사용자 인터페이스 화면"
+                    alt="건설현장 평균일당 정보 - 전기 덕트 비계 배관 공종별 일당 임금정보 제공화면"
                     className="w-full h-full object-cover"
                   />
                 </div>
