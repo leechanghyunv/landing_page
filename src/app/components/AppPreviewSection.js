@@ -10,35 +10,35 @@ const appScreens = [
     id: 1,
     title: "대시보드 화면",
     image:
-      "https://images.unsplash.com/photo-1570894808314-677b57f25e45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkYXNoYm9hcmQlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzU3MTE0NzMxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "/image/preview_image/IMG_7120.jpg",
     alt: "모바일 앱 대시보드 인터페이스 화면으로 사용자 친화적인 디자인과 직관적인 네비게이션을 보여주는 스크린샷",
   },
   {
     id: 2,
     title: "사용자 인터페이스",
     image:
-      "https://images.unsplash.com/photo-1669850850090-54237ab4a4a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwbW9ja3VwJTIwbW9iaWxlJTIwYXBwfGVufDF8fHx8MTc1NzE1MTA4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "/image/preview_image/IMG_7121.jpg",
     alt: "스마트폰 목업에서 실행되는 모바일 애플리케이션 인터페이스 디자인",
   },
   {
     id: 3,
     title: "기능 화면",
     image:
-      "https://images.unsplash.com/photo-1641862039942-5815d8f74938?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjB1c2VyJTIwaW50ZXJmYWNlJTIwY2xlYW58ZW58MXx8fHwxNzU3MTUxMDg3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "/image/preview_image/IMG_7122.jpg",
     alt: "깔끔하고 현대적인 모바일 앱 사용자 인터페이스 디자인을 보여주는 화면",
   },
   {
     id: 4,
     title: "설정 메뉴",
     image:
-      "https://images.unsplash.com/photo-1551650992-ee4fd47df41f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ24lMjBtb2Rlcm58ZW58MXx8fHwxNzU3MTUxMDg4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "/image/preview_image/IMG_7126.jpg",
     alt: "현대적인 앱 인터페이스 디자인을 보여주는 모바일 애플리케이션 화면",
   },
   {
     id: 5,
     title: "프로필 화면",
     image:
-      "https://images.unsplash.com/photo-1730818875087-182c15e1e7a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHBsaWNhdGlvbiUyMHNjcmVlbnxlbnwxfHx8fDE3NTcxNTEwODh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "/image/preview_image/IMG_7127.jpg",
     alt: "모바일 애플리케이션 프로필 화면의 사용자 인터페이스 디자인",
   },
 ];

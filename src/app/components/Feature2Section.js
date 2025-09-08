@@ -23,10 +23,10 @@ export function Feature2Section() {
           {/* Image */}
           <div className="order-2">
             <div className="relative">
-              <div className="aspect-[3/4] max-w-xs sm:max-w-sm mx-auto bg-gray-900 rounded-2xl sm:rounded-3xl p-2 sm:p-3 shadow-2xl">
+              <div className=" max-w-xs sm:max-w-sm mx-auto bg-gray-900 rounded-2xl sm:rounded-3xl shadow-2xl">
                 <div className="w-full h-full bg-white rounded-xl sm:rounded-2xl overflow-hidden">
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1684910501147-9ad8052a42bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBmZWF0dXJlcyUyMGRlc2lnbnxlbnwxfHx8fDE3NTcxNTEwODl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                    src="/image/Group 45.png" 
                     alt="모바일 앱의 두 번째 주요 기능인 스마트 자동화 시스템을 보여주는 인터페이스 화면"
                     className="w-full h-full object-cover"
                   />

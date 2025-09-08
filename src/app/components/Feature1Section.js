@@ -1,6 +1,9 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function Feature1Section() {
+
+
+  
   return (
     <section
       id="features"
@@ -11,16 +14,16 @@ export function Feature1Section() {
           {/* Image */}
           <div className="order-2 lg:order-1">
             <div className="relative">
-              <div className="aspect-[3/4] max-w-xs sm:max-w-sm mx-auto bg-gray-900 rounded-2xl sm:rounded-3xl p-2 sm:p-3 shadow-2xl">
-                <div className="w-full h-full bg-white rounded-xl sm:rounded-2xl overflow-hidden">
+              <div className=" max-w-xs sm:max-w-sm mx-auto sm:rounded-3xl shadow-2xl">
+                <div className="w-full h-full rounded-xl sm:rounded-2xl overflow-hidden">
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1710993012000-f109972e3b8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwYXBwJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc1NzE1MTA4OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                    src="/image/Group 18.png" 
                     alt="스마트폰 앱 인터페이스의 첫 번째 주요 기능을 보여주는 화면으로 사용자 경험과 기능성을 강조하는 디자인"
                     className="w-full h-full object-cover"
                   />
                 </div>
               </div>
-              {/* <div className="absolute -z-10 top-3 sm:top-4 left-3 sm:left-4 w-full h-full bg-teal-500/20 rounded-2xl sm:rounded-3xl" /> */}
+
             </div>
           </div>
 

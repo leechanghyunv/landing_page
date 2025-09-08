@@ -16,14 +16,18 @@ export function HeroSection() {
           워크캘린더
         </h1>
 
-        <div className="mb-6 sm:mb-8 flex justify-center">
-          <div className="relative w-80 sm:w-96 md:w-[500px] h-48 sm:h-56 md:h-72 rounded-2xl overflow-hidden shadow-2xl">
-            <ImageWithFallback
-              src="https://images.unsplash.com/photo-1632152943364-728220ee6b4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b3JrJTIwY2FsZW5kYXIlMjBhcHAlMjBtb2JpbGUlMjBwaG9uZXxlbnwxfHx8fDE3NTcyMzQyMDV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-              alt="워크캘린더 앱 대표 이미지 - 스마트폰에서 캘린더 앱을 사용하는 모습"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+       <div className="mb-6 sm:mb-8 flex justify-center">
+          <div className="relative">
+            {/* 🔄 Feature 섹션과 동일한 스타일 적용 */}
+            <div className="max-w-xs sm:max-w-sm mx-auto bg-gray-900 rounded-2xl sm:rounded-3xl shadow-2xl">
+              <div className="w-full h-full bg-white rounded-xl sm:rounded-2xl overflow-hidden">
+                <ImageWithFallback
+                  src="/image/main.png"
+                  alt="워크캘린더 앱 대표 이미지 - 스마트폰에서 캘린더 앱을 사용하는 모습"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
 
