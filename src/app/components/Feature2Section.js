@@ -12,6 +12,16 @@ export function Feature2Section() {
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6">
                 퇴직공제금,실업급여 조건 계산
               </h2>
+
+<div className="flex justify-center lg:justify-start items-start gap-2 text-sm sm:text-base pb-4">
+  <div>
+    <strong>건설근로자공제회</strong> 어플 따로 볼 필요 없어요! 
+    
+  </div>
+</div>
+
+
+
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-4 sm:mb-6 leading-relaxed">
                 건설근로공제 퇴직금 계산, 퇴직공제금 수급조건
                 계산은 워크캘린더에만 있는 특별한 기능입니다. 이제

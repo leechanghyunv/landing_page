@@ -28,6 +28,15 @@ export function Feature3Section() {
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6">
                 현장별 평균 임금자료 제공
               </h2>
+
+<div className="flex justify-center lg:justify-start items-start gap-2 text-sm sm:text-base pb-4">
+  <div>
+    <strong>삼성반도체</strong>,<strong>하이닉스</strong> 현장 노가다 일당은?
+    
+  </div>
+</div>
+
+
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-4 sm:mb-6 leading-relaxed">
                 현장근로자의 어려움 중 하나는 임금정보가 투명하지
                 않다는 것입니다. 워크캘린더는 이 문제를 해결하고

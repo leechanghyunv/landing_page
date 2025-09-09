@@ -33,12 +33,13 @@ export function Feature1Section() {
               </h2>
               
 
-<div className="flex justify-center items-start gap-2 text-sm sm:text-base pb-4">
+<div className="flex justify-center lg:justify-start items-start gap-2 text-sm sm:text-base pb-4">
   <div>
     <strong>정상근무(1.0)</strong>, <strong>연장근무(1.5)</strong>, 
     <strong>야간근무(2.0)</strong>
   </div>
 </div>
+
 
 
               
