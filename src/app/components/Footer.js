@@ -19,7 +19,7 @@ export function Footer() {
           <div className="flex flex-row gap-3 sm:gap-4 justify-center items-center mb-8 sm:mb-12">
           <Button
           size="lg"
-          className="bg-teal-500 hover:bg-teal-600 text-white px-6 sm:px-8 min-w-[140px]"
+          className="bg-teal-500 hover:bg-teal-600 text-white font-bold px-6 sm:px-8 min-w-[140px]"
           asChild
           >
           <a
@@ -33,7 +33,7 @@ export function Footer() {
           
           <Button
           size="lg"
-          className="bg-teal-500 hover:bg-teal-600 text-white px-6 sm:px-8 min-w-[140px]"
+          className="bg-teal-500 hover:bg-teal-600 text-white font-bold px-6 sm:px-8 min-w-[140px]"
           asChild
           >
           <a
