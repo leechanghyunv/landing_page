@@ -1,12 +1,4 @@
 import "./globals.css";
-
-import { HeroSection } from './components/HeroSection';
-import { AppPreviewSection } from './components/AppPreviewSection';
-import { Feature1Section } from './components/Feature1Section';
-import { Feature2Section } from './components/Feature2Section';
-import { Feature3Section } from './components/Feature3Section';
-import { TestimonialsSection } from './components/TestimonialsSection';
-import { FAQSection } from './components/FAQSection';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 
@@ -38,7 +30,7 @@ export const metadata = {
     description: '건설현장 공수 개념부터 노무비 계산까지, 현장 관리자의 필수 앱',
      images: [
     {
-      url: 'image/main_image.png', // public 폴더에 있는 파일
+      url: 'image/main.png', // public 폴더에 있는 파일
       width: 500,
       height: 500,
       alt: '공수계산기 앱 미리보기',
@@ -67,13 +59,54 @@ export const metadata = {
 
 /// 어디에든 공통적으로 사용되는 화면
 export default function RootLayout({ children }) {
+
+ 
+  const appJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'MobileApplication',
+    name: '워크캘린더 - 공수계산기 & 공수달력',
+    applicationCategory: 'BusinessApplication',
+    operatingSystem: 'Android, iOS',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'KRW',
+      description: '광고 없음'
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.5',
+      ratingCount: '150'
+    },
+    'creator': {
+    '@type': 'Organization',
+    'name': 'lafayette'
+  },
+    'featureList': [
+    "공수계산기",
+    "퇴직공제금 자동계산",
+    "실업급여 조건 확인",
+    "건설현장 일당정보",
+    '건설근로자공제회 퇴직금 계산',
+    '광고 없음'
+  ],
+    description: '광고없는 공수계산기, 공수달력, 현장직 실업급여 조건, 퇴직공제금 계산 지원 앱'
+  };
+
   return (
     <html lang="ko">
     <head>
+
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <meta name="naver-site-verification" content="2072f8e87baa3a250aebcafae511f324e6047c49" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17290887925"></script>
+    
+    <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(appJsonLd) }}
+        />
+
     <script
       dangerouslySetInnerHTML={{
         __html: `
@@ -97,13 +130,15 @@ export default function RootLayout({ children }) {
     />
     <style> 
     </style>
+
     </head>
+
       <body suppressHydrationWarning>
       
          <Header />
-       <main>
+       
        {children}
-      </main>
+      
       <Footer />
     
       </body>
