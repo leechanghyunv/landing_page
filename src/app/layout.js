@@ -102,16 +102,10 @@ export default function RootLayout({ children }) {
       
          <Header />
        <main>
-        <HeroSection />
-        {/* <AppPreviewSection /> */}
-        <Feature1Section />
-        <Feature2Section />
-        <Feature3Section />
-        <TestimonialsSection />
-        <FAQSection />
+       {children}
       </main>
       <Footer />
-    {children}
+    
       </body>
     </html>
   );
