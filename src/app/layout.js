@@ -6,6 +6,9 @@ export const metadata = {
   title: '공수계산기 - 건설 일당 계산 무료 노가다 앱,| 워크캘린더',  // 핵심 키워드 앞배치
   description: '공수계산기, 퇴직공제금,실업급여조건 산정, 노가다 현장 평균일당정보제공 기능을 하나로! 평택삼성, 용인하이닉스, 조선소, 플랜트 현장 근로자를 위한 맞춤형 일당·공수 관리 앱',
   keywords: [
+    '공수달력',           // 최우선
+    '공수계산기 어플',    // 주요
+    '노가다 공수계산',    // 주요
     '공수표', 
     '공수달력', 
     '공수노트', 
@@ -15,6 +18,9 @@ export const metadata = {
     '건설현장', 
     '일당직', 
   ],
+
+
+  
    alternates: {
     types: {
       'application/rss+xml': [
@@ -33,7 +39,7 @@ export const metadata = {
       url: 'image/main.png', // public 폴더에 있는 파일
       width: 500,
       height: 500,
-      alt: '공수계산기 앱 미리보기',
+      alt: '공수달력 - 공수계산기 어플 메인화면',
     },
   ],
   type: 'website',
@@ -44,7 +50,7 @@ export const metadata = {
   card: 'summary_large_image',
   title: '공수계산기 - 공수달력',
   description: '건설현장 공수 관리와 일용직 임금 계산을 한번에!',
-  images: ['image/main_image.png'],
+  images: ['image/main.png'],
  },
 
   verification: {
