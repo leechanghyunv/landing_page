@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://landing-page-vert-sigma.vercel.app
+
+# Sitemaps
+Sitemap: https://landing-page-vert-sigma.vercel.app/sitemap.xml
