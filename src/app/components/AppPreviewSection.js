@@ -59,7 +59,7 @@ export function AppPreviewSection() {
 
   return (
     <section
-      id="preview"
+      // id="preview"
       className="py-12 sm:py-16 md:py-20 px-4 bg-white"
     >
       <div className="container mx-auto">

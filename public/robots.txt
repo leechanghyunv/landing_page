@@ -1,15 +1,9 @@
-# public/robots.txt
+# *
 User-agent: *
 Allow: /
-Disallow: /_next/
-Disallow: /api/
 
-# 주요 검색엔진 명시
-User-agent: Googlebot
-Allow: /
+# Host
+Host: https://landing-page-vert-sigma.vercel.app
 
-User-agent: Yeti
-Allow: /
-
-# 사이트맵
+# Sitemaps
 Sitemap: https://landing-page-vert-sigma.vercel.app/sitemap.xml

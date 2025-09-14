@@ -7,7 +7,9 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function HeroSection() {
   return (
-    <section className="py-12 sm:py-16 md:py-20 px-4">
+    <section 
+    id="preview"
+    className="py-12 sm:py-16 md:py-20 px-4">
       <div className="container mx-auto text-center">
       
       <div className="sr-only">
