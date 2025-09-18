@@ -37,6 +37,14 @@ const testimonials = [
       "다른 공수앱을 쓰다가 넘어왔습니다. 한눈에 들어오는 디자인, 편의성이 압도적으로 좋습니다. 광고없는건 덤이구요 ",
     rating: 4,
   },
+   {
+    id: 6,
+    name: "조**",
+    content:
+      "실업급여 180일 수급조건을 자동으로 계산해주니까 정말 편해요. 이런 공수 달력 처음봅니다 ios 공수 계산기 추천합니다",
+    rating: 5,
+  },
+  
 ];
 
 export function TestimonialsSection() {
@@ -60,7 +68,7 @@ export function TestimonialsSection() {
             >
               <CardContent className="p-4 sm:p-6">
                 <div className="flex items-center gap-1 mb-3 sm:mb-4">
-                  {[...Array(5)].map((_, i) => (
+                  {[...Array(6)].map((_, i) => (
                     <Star
                       key={i}
                       className={`w-3.5 h-3.5 sm:w-4 sm:h-4 ${

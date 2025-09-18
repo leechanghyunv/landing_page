@@ -4,6 +4,13 @@ export function Feature2Section() {
   return (
     <section className="py-12 sm:py-16 md:py-20 px-4 bg-gradient-to-b from-teal-50/30 to-background">
       <div className="container mx-auto">
+
+<div className="sr-only">
+          <h1>아이폰 IOS 공수 계산기 추천 워크캘린더 입니다.</h1>
+          <p>공수 계산기 어플 반장님은 어떤거 쓰세요?</p>
+        </div>
+
+
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Content */}
           <div className="order-1 text-center lg:text-left">
@@ -41,7 +48,7 @@ export function Feature2Section() {
                 <div className="w-full h-full bg-white rounded-xl sm:rounded-2xl overflow-hidden">
                   <ImageWithFallback
                     src="/image/Group 45.png"
-                    alt="퇴직공제금 계산기능 - 건설근로자공제회 퇴직금 실업급여 180일 수급조건 자동계산"
+                    alt="공수 계산기 최초 퇴직공제금 계산기능 - 건설근로자공제회 퇴직금 실업급여 180일 수급조건 자동계산"
                     className="w-full h-full object-cover"
                   />
                 </div>

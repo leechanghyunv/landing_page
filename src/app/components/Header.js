@@ -1,5 +1,8 @@
 export function Header() {
   return (
+
+
+    
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="w-full flex h-16 items-center justify-center px-4">
         {/* 중앙 정렬된 네비게이션 - 모든 스크린 크기에서 가운데 정렬 */}

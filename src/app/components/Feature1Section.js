@@ -7,6 +7,7 @@ export function Feature1Section() {
       className="py-12 sm:py-16 md:py-20 px-4"
     >
       <div className="container mx-auto">
+
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Image */}
           <div className="order-2 lg:order-1">
@@ -16,7 +17,7 @@ export function Feature1Section() {
                 <div className="w-full h-full bg-white rounded-xl sm:rounded-2xl overflow-hidden">
                   <ImageWithFallback
                     src="/image/Group 18.png" 
-                    alt="스마트폰 앱 인터페이스의 첫 번째 주요 기능을 보여주는 화면으로 사용자 경험과 기능성을 강조하는 디자인"
+                    alt="공수 계산기 스마트폰 앱 인터페이스의 첫 번째 주요 기능을 보여주는 화면으로 사용자 경험과 기능성을 강조하는 디자인"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -44,9 +45,9 @@ export function Feature1Section() {
 
               
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-4 sm:mb-6 leading-relaxed">
-                
+                워크캘린더는 
                 필요한 정보를 간결하게 보여드립니다.
-                다른앱과 달리 정상근무(1.0),연장근무(1.5),야간근무(2.0) 등
+                다른 공수 어플과 달리 정상근무(1.0),연장근무(1.5),야간근무(2.0) 등
                 근무형태를 바로바로 입력할 수 있도록 작은 버튼으로
                 구성되었습니다. (1.0),(1.5),(2.0)의 구성은 변경 가능합니다
               </p>
