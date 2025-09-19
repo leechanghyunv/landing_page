@@ -13,7 +13,7 @@ export function HeroSection() {
       <div className="container mx-auto text-center">
       
       <div className="sr-only">
-          <h1>건설근로자 공수계산기 - 일용직 노가다 공수달력 앱</h1>
+          <h1>건설근로자 공수 계산기 - 일용직 노가다 공수 달력 앱</h1>
           <p>건설현장 일당계산, 근로일수 관리, 건설근로자공제회 퇴직금 계산</p>
         </div>
 
@@ -36,7 +36,7 @@ export function HeroSection() {
             #퇴직공제금
           </span>
           <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full">
-            #건설일용직
+            #실업급여
           </span>
         </div>
 

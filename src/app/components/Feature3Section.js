@@ -13,7 +13,7 @@ export function Feature3Section() {
                 <div className="w-full h-full bg-white rounded-xl sm:rounded-2xl overflow-hidden">
                   <ImageWithFallback
                     src="/image/Group 46.png"
-                    alt="건설현장 평균일당 정보 - 전기 덕트 비계 배관 공종별 일당 임금정보 제공화면"
+                    alt="건설현장 평균 일당 정보 - 전기 덕트 비계 배관 공종별 일당 임금정보 제공화면"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -42,7 +42,7 @@ export function Feature3Section() {
                 않다는 것입니다. 워크캘린더는 이 문제를 해결하고
                 싶었습니다. 그간 유저들의 설문조사에서 얻은 결과로
                 전기,덕트,비계,배관 등 주요 공종에 대한 평균 일당
-                정보를 제공합니다.
+                정보를 제공합니다. 
               </p>
             </div>
           </div>

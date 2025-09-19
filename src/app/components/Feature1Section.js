@@ -7,6 +7,13 @@ export function Feature1Section() {
       className="py-12 sm:py-16 md:py-20 px-4"
     >
       <div className="container mx-auto">
+      
+      
+      <div className="sr-only">
+          <h1>광고 없는 공수 계산기 - 워크캘린더 입니다</h1>
+          <p>공수 달력은 이만한게 없습니다.</p>
+    
+        </div>
 
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Image */}
