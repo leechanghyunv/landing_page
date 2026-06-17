@@ -17,6 +17,11 @@ export function HeroSection() {
           <p>건설현장 일당계산, 근로일수 관리, 건설근로자공제회 퇴직금 계산</p>
         </div>
 
+        <div className="inline-flex items-center gap-2 bg-teal-50 text-teal-700 font-bold text-xs sm:text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
+  
+          <span>iOS, 안드로이드 공수앱 최고평점</span>
+        </div>
+
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-1 sm:mb-2 text-black leading-tight">
           공수계산기 그 이상
         </h1>
@@ -25,7 +30,7 @@ export function HeroSection() {
         </h1>
 
 
-  <div className="flex flex-wrap justify-center gap-2 mb-4 text-xs sm:text-sm">
+  <div className="flex flex-wrap justify-center gap-2 mb-4 text-sm sm:text-base">
           <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full">
             #공수달력
           </span>
@@ -60,15 +65,9 @@ export function HeroSection() {
 
 
       <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8 max-w-xs sm:max-w-2xl md:max-w-3xl mx-auto leading-relaxed">
-  특별한 기능없는 <strong>공수계산기</strong>를 써오셨다면 
-  이젠 바꾸세요! <strong>워크캘린더</strong>는
-  <span className="text-teal-600 font-semibold"> 건설근로자</span>와 
-  <span className="text-teal-600 font-semibold"> 일용직</span>을 위한 
-  공수계산기록에 따른 <strong>퇴직근로공제금</strong>, 
-  <strong>실업급여 수급조건</strong> 계산 등 
-  다른 공수앱 에는 없었던 기능을 제공합니다. 
-  이런 <strong>공수어플</strong>! 광고없이 만나보세요.
-</p>
+        <strong>워크캘린더</strong>는 지난 2년간 유저들의 피드백을 모아 유저들의 불편함을 개선했습니다.
+        그 결과 <span className="text-teal-600 font-semibold">iOS 및 안드로이드</span>에서 공수앱 부문 <strong>최고평점</strong>을 유지하고 있습니다.
+      </p>
 
 
        <div className="flex flex-row gap-3 sm:gap-4 justify-center items-center mb-8 sm:mb-12">
@@ -111,7 +110,7 @@ export function HeroSection() {
             ))}
           </div>
           <span className="text-xs sm:text-sm text-muted-foreground">
-            4.5/5 평점
+            4.7/5 평점
           </span>
         </div>
 
@@ -122,6 +121,24 @@ export function HeroSection() {
           <span>✓ 개인정보 수집 없음</span>
         </div>
 
+        {/* 💡 브릿지 배너 (Option A) */}
+        <div className="mt-12 sm:mt-16 max-w-xs sm:max-w-2xl md:max-w-3xl mx-auto">
+          <div className="bg-gradient-to-r from-teal-50/60 via-emerald-50/30 to-teal-50/60 border border-teal-100/80 rounded-2xl p-5 sm:p-6 md:p-8 shadow-sm relative overflow-hidden group hover:shadow-md transition-all duration-300">
+            {/* Deco background blur */}
+            <div className="absolute -right-6 -top-6 w-24 h-24 bg-teal-200/20 rounded-full blur-xl pointer-events-none" />
+            <div className="absolute -left-6 -bottom-6 w-24 h-24 bg-emerald-200/20 rounded-full blur-xl pointer-events-none" />
+            
+            <div className="relative z-10 flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-5">
+            
+              <div className="flex-1 text-center sm:text-left">
+                <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed font-medium">
+                  워크캘린더는 다른 공수앱에서 볼 수 없는 <span className="text-teal-600 font-bold">최고 수준의 디자인</span>을 제공합니다. 
+                  동시에 <span className="text-teal-700 font-semibold">퇴직공제금, 실업급여 수급조건</span> 등 다른 공수앱에서는 찾아볼 수 없는 특별한 기능을 모두 보유하고 있습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
     </section>
